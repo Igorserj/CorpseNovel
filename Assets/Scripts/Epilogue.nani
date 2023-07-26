@@ -1,0 +1,359 @@
+@back Entrance2 id:School
+@hideUI Entrance
+@hideUI QuestUi
+@if Conversation=true
+    @if Part2=true
+        @char Yuuya.Angry_smile tint:#ffffff
+        Yuuya: Friends, I found two paper man talismans.
+        @char Yuuya.Angry_smile tint:#333333
+        @char Miku.Scared tint:#ffffff
+        Miku: Only two?
+    @else
+        @char Yuuya.Angry_smile tint:#ffffff
+        Yuuya: Friends, I found a paper man talisman.
+        @char Yuuya.Angry_smile tint:#333333
+        @char Miku.Scared tint:#ffffff
+        Miku: Only one?
+    @endIf
+
+    @char Miku.Serious tint:#ffffff
+    Miku: If one of the newspapers I found here is to be believed, then these talismans make it possible to escape from here.
+
+    @char Miku.Serious tint:#333333
+    @char Yoshiki.Scared2 tint:#ffffff
+    Yoshiki: What? Wait, where is my talisman?
+    Yoshiki: It was in my wallet, I remember it exactly, but now it is gone.
+    @char Yoshiki.Speak
+    Yoshiki: {playerName}, didn't you steal it from me?
+    @char Yoshiki.Speak tint:#333333
+    @char Miku.Scared tint:#ffffff
+    Miku: I don't think he would do that.
+    @char Miku.Scared tint:#333333
+    @char Yuuya.Angry_speak tint:#ffffff
+    Yuuya: Calm down.
+    Yuuya: I understand that the situation is not pleasant, and everyone is on edge.
+    @char Yuuya.Serious
+    @set FirstDecission=false
+    @set SecondDecission=false
+@endIf
+
+# Decissions
+@if FirstDecission=false
+    @goto .Decission1
+    @elseIf SecondDecission=false
+    @goto .Decission2
+@else
+    @goto .Finale
+@endIf
+
+# Decission1
+<i>I need to decide who will receive the talisman or keep it for myself</i>
+@char Yuuya.Serious tint:#333333
+@hideChars
+@choice "Keep" goto:.YuuyaSave
+@choice "Give Miku" goto:.MikuSave
+@choice "Give Yoshiki" goto:.YoshikiSave
+@stop
+
+# Decission2
+@if Part2=true
+    <i>I need to decide who will receive the second talisman or keep it for myself</i>
+    @hideChars
+    @choice "Keep" goto:.YuuyaSave
+    @if MikuCharm=false
+        @choice "Give Miku" goto:.MikuSave
+    @endIf
+    @if YoshikiCharm=false
+        @choice "Give Yoshiki" goto:.YoshikiSave
+    @endIf
+    @stop
+@else
+    @goto .Finale
+@endIf
+@stop
+
+# Finale
+@if YoshikiCharm=false
+    @char Yoshiki.Serious2 tint:#ffffff
+    Yoshiki: I thought we were friends.
+    @char Yoshiki.Serious2 tint:#333333
+@endIf
+
+@if MikuCharm=false
+    @char Miku.Scared tint:#ffffff
+    Miku: I hope you know what you are doing.
+    @char Miku.Scared tint:#333333
+@endIf
+
+@wait 1
+@stopBgm
+@bgm Battle loop:true
+@spawn ShakeBackground params:School,0
+@char Miku.Scared2 tint:#ffffff
+Miku: What is going on?
+@char Miku.Scared2 tint:#333333
+@char Yuuya.Angry_speak tint:#ffffff
+Yuuya: Someone is breaking down the door!
+@char Yuuya.Angry_speak tint:#333333
+@char Yoshiki.Scared2 tint:#ffffff
+Yoshiki: What should we do?
+@char Yoshiki.Scared2 tint:#333333
+@char Yoshikazu.Smile pos:4
+
+@char Miku.Scared tint:#ffffff
+Miku: Guys, I have a plan, but I don't know how effective it is.
+@char Miku.Scared tint:#333333
+@char Yoshiki.Serious2 tint:#ffffff
+Yoshiki: Let's do something before he kills us all!
+@char Yoshiki.Serious2 tint:#333333
+@char Miku.Scared tint:#ffffff
+Miku: Owners of the talisman will be able to escape this place.
+Miku: We just need to hold hands and perform the ritual.
+@char Miku.Scared tint:#333333
+@hide Miku remove:true
+@hide Yoshiki remove:true
+@hide Yuuya remove:true
+@char Yoshikazu.Smile pos:3
+
+
+@if Part2=true
+    @if MikuCharm=true
+        @if YoshikiCharm=true
+            @char Miku.Scared tint:#ffffff
+            Miku: Only me and Yoshiki will be able to get out of here. {playerName}, thank you again for the talisman.
+            @char Miku.Scared tint:#333333
+            @char Yoshiki.Smile tint:#ffffff
+            Yoshiki: Dude, I will never forget your noble act, thank you!
+            @hidePrinter
+            @hide Miku remove:true
+            @hide Yoshiki remove:true
+            @char Yoshikazu.Smile pos:2
+            @stopBgm
+            @despawn ShakeBackground
+            @hide Yoshikazu remove:true
+            @bgm Ending
+            @back Spark id:School
+            @wait 1
+            *It turned out that you also had a talisman hidden in your pants pocket*
+            All rescued!
+            @goto .FinalWords
+
+        @elseIf YoshikiCharm=false
+            @char Miku.Smile2 tint:#ffffff
+            Miku: Only you and I can get out of here. {playerName}, thank you again for the talisman.
+            @char Miku.Smile2 tint:#333333
+            @char Yoshiki.Scared tint:#ffffff
+            Yoshiki: I hope I can escape from him.
+            @char Yoshiki.Scared tint:#333333
+            @char Yuuya.Smile2 tint:#ffffff
+            Yuuya: I would like to meet you again.
+            @hidePrinter
+            @hide Miku remove:true
+            @hide Yoshiki remove:true
+            @hide Yuuya remove:true
+            @char Yoshikazu.Smile pos:2
+            @stopBgm
+            @despawn ShakeBackground
+            @hide Yoshikazu remove:true
+            @bgm Ending
+            @back Spark id:School
+            @wait 1
+            @back Yoshiki_death id:School
+            @wait 2
+            *It turned out that you also had a talisman hidden in your pants pocket*
+            You and Miku are rescued.
+            @goto .FinalWords
+        @endIf
+
+    @elseIf MikuCharm=false
+        @if YoshikiCharm=true
+            @char Miku.Scared tint:#ffffff
+            Miku: Only you and Yoshiki will be able to get out of here. {playerName}, I was hoping you wouldn't turn me down.
+            @char Miku.Scared tint:#333333
+            @char Yoshiki.Smile tint:#ffffff
+            Yoshiki: Dude, I will never forget your noble act, thank you!
+            @char Yoshiki.Smile tint:#333333
+            @char Yuuya.Blink tint:#ffffff
+            Yuuya: I'm sorry Miku, I would like to meet you again.
+            @hidePrinter
+            @hide Miku remove:true
+            @hide Yoshiki remove:true
+            @hide Yuuya remove:true
+            @char Yoshikazu.Smile pos:2
+            @stopBgm
+            @despawn ShakeBackground
+            @hide Yoshikazu remove:true
+            @bgm Ending
+            @back Spark id:School
+            @wait 1
+            @back Miku_death id:School
+            @wait 2
+            You and Yoshiki are rescued.
+            @goto .FinalWords
+
+        @elseIf YoshikiCharm=false
+            @char Miku.Serious tint:#ffffff
+            Miku: Only you can get out of here. {playerName}, I hoped you wouldn't refuse me. Why do you need 2 talismans?
+            @char Miku.Serious tint:#333333
+            @char Yoshiki.Speak tint:#ffffff
+            Yoshiki: Dude, you are a piece of shit.
+            @char Yoshiki.Speak tint:#333333
+            @char Yuuya.Angry_smile2 tint:#ffffff
+            Yuuya: Sometimes you have to sacrifice something.
+            @hidePrinter
+            @hide Miku remove:true
+            @hide Yoshiki remove:true
+            @hide Yuuya remove:true
+            @char Yoshikazu.Smile pos:2
+            @stopBgm
+            @despawn ShakeBackground
+            @hide Yoshikazu remove:true
+            @bgm Ending
+            @back Spark id:School
+            @wait 1
+            @back Yoshiki_death id:School
+            @wait 2
+            @back Miku_death id:School
+            @wait 2
+            You were rescued, but at what cost?...
+            @goto .FinalWords
+        @endIf
+    @endIf
+
+@elseIf Part2=false
+    @if YoshikiCharm=true
+        @char Miku.Scared tint:#ffffff
+        Miku: Only Yoshiki can get out of here, I hoped you wouldn't refuse me.
+        @char Miku.Scared tint:#333333
+        @char Yoshiki.Smile tint:#ffffff
+        Yoshiki: Dude, I will never forget your noble act, thank you!
+        @hidePrinter
+        @hide Miku remove:true
+        @hide Yoshiki remove:true
+        @hide Yuuya remove:true
+        @char Yoshikazu.Smile pos:2
+        @stopBgm
+        @despawn ShakeBackground
+        @hide Yoshikazu remove:true
+        @bgm Ending
+        @back Spark id:School
+        @wait 1
+        @back Miku_death id:School
+        @wait 2
+        *It turned out that you also had a talisman hidden in your pants pocket*
+        You and Yoshiki are rescued.
+        @goto .FinalWords
+
+    @elseIf MikuCharm=true
+        @char Miku.Scared tint:#ffffff
+        Miku: Only I can get out of here. {playerName}, thank you again for the talisman.
+        @char Miku.Scared tint:#333333
+        @char Yoshiki.Serious2 tint:#ffffff
+        Yoshiki: I hope we can escape from him.
+        @char Yoshiki.Serious2 tint:#333333
+        @char Yuuya.Angry_smile tint:#ffffff
+        Yuuya: Miku, I hope we will meet again.
+        @hidePrinter
+        @hide Miku remove:true
+        @hide Yoshiki remove:true
+        @hide Yuuya remove:true
+        @char Yoshikazu.Smile pos:2
+        @stopBgm
+        @despawn ShakeBackground
+        @hide Yoshikazu remove:true
+        @bgm Ending
+        @back Spark id:School
+        @wait 1
+        @back Yoshiki_death id:School
+        @wait 2
+        *It turned out that you also had a talisman hidden in your pants pocket*
+        You and Miku are rescued.
+        @goto .FinalWords
+
+    @else
+        @char Miku.Scared tint:#ffffff
+        Miku: Only you can get out of here. {playerName}, I was hoping you wouldn't turn me down.
+        @char Miku.Scared tint:#333333
+        @char Yoshiki.Serious2 tint:#ffffff
+        Yoshiki: I hope we can escape from him.
+        @char Yoshiki.Serious2 tint:#333333
+        @char Yuuya.Angry_smile tint:#ffffff
+        Yuuya: I hope we will meet again.
+        @hidePrinter
+        @hide Miku remove:true
+        @hide Yoshiki remove:true
+        @hide Yuuya remove:true
+        @char Yoshikazu.Smile pos:2
+        @stopBgm
+        @despawn ShakeBackground
+        @hide Yoshikazu remove:true
+        @bgm Ending
+        @back Spark id:School
+        @wait 1
+        @back Yoshiki_death id:School
+        @wait 2
+        @back Miku_death id:School
+        @wait 2
+        You were rescued...
+        @goto .FinalWords
+    @endIf
+@endIf
+
+# FinalWords
+Thanks for your attention!
+@title
+@stop
+
+# MikuSave
+@if FirstDecission=false
+    @set FirstDecission=true
+    @elseIf SecondDecission=false
+    @set SecondDecission=true
+@endIf
+@char Yuuya.Smile tint:#ffffff
+Yuuya: Miku, hold on.
+@char Yuuya.Smile tint:#333333
+@set MikuCharm=true
+@char Miku.Smile2 tint:#ffffff
+Miku: Thanks! Are you sure about your decision?
+@char Miku.Smile tint:#333333
+@char Yuuya.Smile tint:#ffffff
+Yuuya: Yep, I am.
+@hide Miku remove:true
+@hide Yuuya remove:true
+@hidePrinter 
+@goto .Decissions
+@stop
+
+# YoshikiSave
+@if FirstDecission=false
+    @set FirstDecission=true
+    @elseIf SecondDecission=false
+    @set SecondDecission=true
+@endIf
+@char Yuuya.Smile tint:#ffffff
+Yuuya: Yoshiki, hold on.
+@char Yuuya.Smile tint:#333333
+@set YoshikiCharm=true
+@char Yoshiki.Smile2 tint:#ffffff
+Yoshiki: Thank you, dude!
+@hide Yoshiki remove:true
+@hide Yuuya remove:true
+@hidePrinter 
+@goto .Decissions
+@stop
+
+# YuuyaSave
+@if FirstDecission=false
+    @set FirstDecission=true
+    @elseIf SecondDecission=false
+    @set SecondDecission=true
+@endIf
+@char Yuuya.Angry_smile tint:#ffffff
+Yuuya: I will keep the talisman.
+@hide Yuuya remove:true
+@hidePrinter 
+@goto .Decissions
+@stop
+
+@stop

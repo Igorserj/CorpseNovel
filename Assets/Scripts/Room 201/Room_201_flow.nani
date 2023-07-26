@@ -1,0 +1,55 @@
+@if Conversation=false
+@if Scissors=true
+@if Opened201=true
+
+@showUI QuestUi
+@stopBgm
+@bgm Game
+@back Door id:Room_201
+@char Yoshiki.Scared tint:#333333
+@char Miku.Scared tint:#ffffff
+Miku: Thanks for the rescue!
+
+@char Miku.Scared tint:#333333
+@char Yoshiki.Scared2 tint:#ffffff
+Yoshiki: Come on, let's get out of this room.
+
+@hide Miku remove:true
+@char Yoshiki.Scared2 tint:#333333
+@char Yuuya.Serious tint:#ffffff
+Yuuya: I have scissors, don't worry about it.
+
+@char Yuuya.Serious tint:#333333
+@char Yoshiki.Speak tint:#ffffff
+Yoshiki: You can't say that when you weren't sitting locked in this room without any hope.
+
+@char Yoshiki.Serious2 tint:#333333
+@char Yuuya.Serious tint:#ffffff
+Yuuya: ...
+Yuuya: I will go there anyway.
+
+@hide Yoshiki remove:true
+@hide Yuuya remove:true
+@hide Room_201 remove:true
+@set Conversation=true
+
+@set QuestNo=6
+@hideUI QuestUi
+@set Place="Room201"
+@hideUI Corridor201
+@stopBgm
+@bgm Creepy loop:true
+@goto Base_flow.QuestCheck
+
+@endIf
+@endIf
+@endIf
+
+@hidePrinter
+@showUI QuestUi
+@stopBgm
+@bgm Creepy loop:true
+@showUI Room201
+@hideUI Corridor201
+
+@stop

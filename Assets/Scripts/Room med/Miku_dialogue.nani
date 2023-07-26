@@ -1,0 +1,100 @@
+@back Room id:Room_med
+@hideUI RoomMed
+
+@char Miku.Smile tint:#333333
+@char Yuuya.Angry_smile tint:#ffffff
+Yuuya: Hello! I did not expect to meet you here.
+
+@char Yuuya.Serious tint:#333333
+@char Miku.Smile2 tint:#ffffff
+Miku: {playerName}, I can't believe my eyes, is that really you?
+
+@char Miku.Smile tint:#333333
+@char Yuuya.Angry_smile tint:#ffffff
+Yuuya: And who else? By the way, haven't you met Yoshiki?
+
+@char Yuuya.Serious tint:#333333
+@char Miku.Serious tint:#ffffff
+Miku: The last time we saw each other before the ritual.
+
+@char Miku.Serious tint:#333333
+@char Yuuya.Angry_speak tint:#ffffff
+Yuuya: What ritual?
+
+@char Yuuya.Blink tint:#333333
+@char Miku.Scared tint:#ffffff
+Miku: Sachiko ever after.
+
+@char Miku.Serious tint:#333333
+@char Yuuya.Serious tint:#ffffff
+Yuuya: What kind of ritual is this?
+
+@char Yuuya.Serious tint:#333333
+@char Miku.Smile2 tint:#ffffff
+Miku: My friend found this ritual on the Internet. Its purpose to save friendship forever.
+Miku: The ritual works as follows: all the friends stand around, take the paper man in their hands and hold them tightly.
+Miku: Then they talk about themselves 9 times - Sachiko-san, we beg of you.
+Miku: After that, everyone quickly tears apart the paper man.
+
+@char Miku.Scared tint:#ffffff
+Miku: But for some reason, immediately after the break, an earthquake began, and everyone fell under the broken floor - it was as if I had fallen into an abyss.
+
+@char Miku.Serious tint:#333333
+@char Yuuya.Angry_speak tint:#ffffff
+Yuuya: Ah, so that's why I'm here, all of you decided to destroy the whole school.
+
+@char Yuuya.Serious tint:#333333
+@char Miku.Scared tint:#ffffff
+Miku: No, it's not like that, no one wanted it to happen.
+
+@char Miku.Serious tint:#333333
+@char Yuuya.Angry_smile2 tint:#ffffff
+Yuuya: Then tell me what this paper dummy is needed for?
+
+@char Yuuya.Blink tint:#333333
+@char Miku.Serious tint:#ffffff
+Miku: It is like a charm that connects all of us, friends, with Ayumi.
+
+@char Miku.Serious tint:#333333
+@char Yuuya.Blink tint:#ffffff
+Yuuya: I would still listen, but I need to rest - I hurt my leg.
+
+@char Yuuya.Blink tint:#333333
+@char Miku.Smile2 tint:#ffffff
+Miku: Let me help you!
+
+@char Miku.Smile tint:#333333
+@char Yuuya.Serious tint:#ffffff
+Yuuya: No, you don't have to, I'll handle it myself, you better try to find Yoshiki, he's wandering around the school somewhere, and then you'll come back here.
+Yuuya: If you don't find me here, then we'll meet at the school entrance.
+
+@char Yuuya.Serious tint:#333333
+@char Miku.Serious tint:#ffffff
+Miku: You are lucky to have found me, and now you sit and rest - and I have to go find this fool.
+
+@char Miku.Serious tint:#333333
+@char Yuuya.Blink tint:#ffffff
+Yuuya: I'm not forcing you, if you don't want to - you can not go.
+
+@char Yuuya.Serious tint:#333333
+@char Miku.Scared tint:#ffffff
+Miku: I'd better go out so I don't disturb you.
+
+@hide Yuuya remove:true
+@hide Miku remove:true
+*Miku goes out*
+@hidePrinter 
+@hideUI QuestUi
+@wait 1
+*A few hours later*
+@set isTraumed=false
+@set MedOpened=true
+@set Opened201=false
+@char Yuuya.Serious tint:#ffffff
+Yuuya: Miku has not been seen or heard for a long time, I have to go and check.
+@hide Yuuya remove:true
+
+@hide Room_med remove:true
+@set QuestNo=4
+@goto Base_flow.QuestCheck
+@stop

@@ -1,0 +1,16 @@
+@hideUI QuestUi
+@if isTraumed=true
+@goto Room_med_flow
+
+@elseIf MedOpened=true
+@goto Room_med_flow
+
+@else
+@back Door_med id:CorridorMed
+@hideUI CorridorMed
+<i>The door to the medical office is locked, but it looks like this lock can be opened</i>
+@hide CorridorMed
+@goto Base_flow.Controls
+@endIf
+
+@stop

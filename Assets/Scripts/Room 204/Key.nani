@@ -1,0 +1,9 @@
+@hideUI QuestUi
+@back Key id:Room_204
+@hideUI Room204
+@set Key201=true
+@set QuestNo=2
+<i>Fine, I found the key, but what does it unlock?</i>
+@hide Room_204
+@goto Base_flow.QuestCheck
+@stop

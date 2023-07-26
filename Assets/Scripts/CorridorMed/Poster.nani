@@ -1,0 +1,7 @@
+@hideUI QuestUi
+@back Poster id:CorridorMed
+@hideUI CorridorMed
+<i>Who draws such terrible pictures?</i>
+@hide CorridorMed
+@goto Base_flow.Controls
+@stop

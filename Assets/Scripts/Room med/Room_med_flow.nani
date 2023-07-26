@@ -1,0 +1,19 @@
+@hidePrinter
+@showUI RoomMed
+@hideUI CorridorMed
+@set Place="RoomMed"
+
+@if isTraumed=true
+@scissorsPicked hide:true
+@goto Miku_dialogue
+
+@elseIf Scissors=true
+@showUI QuestUi
+@scissorsPicked isPicked:true hide:false
+
+@else
+@showUI QuestUi
+@scissorsPicked isPicked:false hide:false
+
+@endIf
+@stop

@@ -1,0 +1,5 @@
+@unloadScene Demo
+@loadScene MainMenu
+@hideUI MinigameQuit
+@goto Door_201.GameFinished
+@stop

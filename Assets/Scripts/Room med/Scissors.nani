@@ -1,0 +1,10 @@
+@hideUI QuestUi
+@back Scissors id:Room_med
+@hideUI RoomMed
+<i>Here is the scissors on the table, I think they will come in handy</i>
+@set Scissors=true
+<i>It looks like someone cut out a paper man</i>
+<i>I will take the talisman</i>
+@hide Room_med
+@goto Base_flow.Controls
+@stop

@@ -1,0 +1,25 @@
+; English <en> to Russian <ru> localization document for `Base_flow` naninovel script
+
+# 8bbdd705
+; What is your name?
+Как тебя зовут?
+
+# b6a65b7b
+; @input name summary:"Enter your name."
+@input name summary:"Введи имя."
+
+# 449bb154
+; Yuuya: My name is {playerName}. I am a 2nd-4th grade student of Byakudan Senior High School.
+Yuuya: Меня зовут {playerName}. Я ученик 2-4 класса старшей школы Бякудан.
+
+# 1fdd639
+; *There's an epilogue, do you want to continue?*
+*Перейти к эпилогу?*
+
+# e53b3172
+; @choice "I am not ready"
+@choice "Я ещё не готов"
+
+# 1b4f37f8
+; @choice "Start epilogue" goto:Epilogue
+@choice "Перейти к эпилогу" goto:Epilogue

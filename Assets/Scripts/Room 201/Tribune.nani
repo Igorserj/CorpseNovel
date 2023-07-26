@@ -1,0 +1,8 @@
+@hideUI QuestUi
+@back Tribune id:Room_201
+@hideUI Room201
+<i>Inscription on the tribune</i> - "Keys left in room 204"
+@hide Room_201
+@goto Base_flow.Controls
+;@goto Room_201_flow
+@stop

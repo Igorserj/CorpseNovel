@@ -1,0 +1,23 @@
+@hideUI QuestUi
+@stopBgm
+@bgm Creepy loop:true
+@back Deadman id:Corridor2
+@hideUI Corridor2
+<i>Sh..., what happened to him?</i>
+<i>Next to the corpse is a student card</i>
+@resetText 
+@printer Fullscreen
+"Degree: Bachelor"
+"Course: 4"
+"Specialty: translator"
+"Educational institution: Kyiv National Linguistic University"
+"Name: Ukrtem"
+... the rest is unreadable
+@resetText 
+@printer Dialogue
+<i>It is surprising that he has nothing left but his hair</i>
+@hide Corridor2
+@stopBgm
+@bgm Game loop:true
+@goto Base_flow.Controls
+@stop

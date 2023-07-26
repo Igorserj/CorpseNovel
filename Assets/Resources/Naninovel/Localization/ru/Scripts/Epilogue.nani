@@ -1,0 +1,261 @@
+; English <en> to Russian <ru> localization document for `Epilogue` naninovel script
+
+# fb5df916
+;         Yuuya: Friends, I found two paper man talismans.
+Yuuya: Друзья, я нашёл два бумажных талисмана.
+
+# ba78ee0d
+;         Miku: Only two?
+Miku: Всего-лишь два?
+
+# b7ed58d9
+;         Yuuya: Friends, I found a paper man talisman.
+Yuuya: Друзья, я нашёл бумажный талисман.
+
+# bc8ccf8
+;         Miku: Only one?
+Miku: Всего-лишь один?
+
+# d02d0d02
+;     Miku: If one of the newspapers I found here is to be believed, then these talismans make it possible to escape from here.
+Miku: Если верить одной из газет, которую я тут нашла, то только владельцы талисманов имеют возможность сбежать отсюда.
+
+# bda78e6b
+;     Yoshiki: What? Wait, where is my talisman?
+Yoshiki: Что? Постой, где мой талисман?
+
+# 396171de
+;     Yoshiki: It was in my wallet, I remember it exactly, but now it is gone.
+Yoshiki: Я точно помню, что он был в моём кошельке, но он куда-то исчез.
+
+# 8a5f1c6d
+;     Yoshiki: {playerName}, didn't you steal it from me?
+Yoshiki: {playerName}, ты точно не украл его у меня?
+
+# 4cc00880
+;     Miku: I don't think he would do that.
+Miku: Не думаю, что он бы такое мог провернуть.
+
+# 191879f
+;     Yuuya: Calm down.
+Yuuya: Успокойтесь.
+
+# 71cc098d
+;     Yuuya: I understand that the situation is not pleasant, and everyone is on edge.
+Yuuya: Я понимаю, что ситуация не из приятных, и каждый сейчас на взводе.
+
+# 566d1600
+; <i>I need to decide who will receive the talisman or keep it for myself</i>
+<i>Мне нужно решить, кому достанется талисман, либо оставить себе</i>
+
+# 9f5549c
+; @choice "Keep" goto:.YuuyaSave
+@choice "Оставить себе" goto:.YuuyaSave
+
+# 3c833bdb
+; @choice "Give Miku" goto:.MikuSave
+@choice "Отдать Мику" goto:.MikuSave
+
+# bcf5fd7d
+; @choice "Give Yoshiki" goto:.YoshikiSave
+@choice "Отдать Йошики" goto:.YoshikiSave
+
+# f78034ce
+;     <i>I need to decide who will receive the second talisman or keep it for myself</i>
+<i>Мне нужно решить, кому достанется второй талисман, либо оставить себе</i>
+
+# 9f5549c
+;     @choice "Keep" goto:.YuuyaSave
+@choice "Оставить себе" goto:.YuuyaSave
+
+# 3c833bdb
+;         @choice "Give Miku" goto:.MikuSave
+@choice "Отдать Мику" goto:.MikuSave
+
+# bcf5fd7d
+;         @choice "Give Yoshiki" goto:.YoshikiSave
+@choice "Отдать Йошики" goto:.YoshikiSave
+
+# 6a0e0c5d
+;     Yoshiki: I thought we were friends.
+Yoshiki: я думал мы друзья.
+
+# fece68fe
+;     Miku: I hope you know what you are doing.
+Miku: я надеюсь, ты знаешь что делаешь.
+
+# 20ed52c8
+; Miku: What is going on?
+Miku: Что происходит?
+
+# 8ad5bb5a
+; Yuuya: Someone is breaking down the door!
+Yuuya: Кто-то выламывает дверь!
+
+# c00d5cc9
+; Yoshiki: What should we do?
+Yoshiki: Что же делать?
+
+# f640d8a4
+; Miku: Guys, I have a plan, but I don't know how effective it is.
+Miku: Ребята, у меня есть план, но я не знаю сработает ли.
+
+# c5f1a115
+; Yoshiki: Let's do something before he kills us all!
+Yoshiki: Давайте уже сделаем что-нибудь, пока он нас не прикончил!
+
+# 21ea3bc6
+; Miku: Owners of the talisman will be able to escape this place.
+Miku: Только владельцы талисмана могут отсюда выбраться.
+
+# 567ad849
+; Miku: We just need to hold hands and perform the ritual.
+Miku: Нам нужно взяться за руки и совершить ритуал.
+
+# baca9010
+;             Miku: Only me and Yoshiki will be able to get out of here. {playerName}, thank you again for the talisman.
+Miku: Только я и Йошики смогут выбраться отсюда. {playerName}, спасибо тебе за талисман.
+
+# f81402ef
+;             Yoshiki: Dude, I will never forget your noble act, thank you!
+Yoshiki: Чувак, я никогда не забуду твой благородный поступок!
+
+# 5ed85e8d
+;             *It turned out that you also had a talisman hidden in your pants pocket*
+*Оказалось, что у тебя в кармане брюк был талисман*
+
+# b81200b7
+;             All rescued!
+Все спасены!
+
+# 766f7f76
+;             Miku: Only you and I can get out of here. {playerName}, thank you again for the talisman.
+Miku: Только ты и я сможем выбраться отсюда. {playerName}, спасибо тебе за талисман.
+
+# 692bfa24
+;             Yoshiki: I hope I can escape from him.
+Yoshiki: Я надеюсь смогу от него убежать.
+
+# 1b966c41
+;             Yuuya: I would like to meet you again.
+Yuuya: Надеюсь мы ещё увидимся.
+
+# 5ed85e8d
+;             *It turned out that you also had a talisman hidden in your pants pocket*
+*Оказалось, что у тебя в кармане брюк был талисман*
+
+# cafdb00e
+;             You and Miku are rescued.
+Ты и Мику спасены.
+
+# 10dbe8b2
+;             Miku: Only you and Yoshiki will be able to get out of here. {playerName}, I was hoping you wouldn't turn me down.
+Miku: Только ты и Йошики смогут выбраться отсюда. {playerName}, я надеялась, что ты мне не откажешь.
+
+# f81402ef
+;             Yoshiki: Dude, I will never forget your noble act, thank you!
+Yoshiki: Чувак, я никогда не забуду твой благородный поступок!
+
+# 2c0942f4
+;             Yuuya: I'm sorry Miku, I would like to meet you again.
+Yuuya: Прости меня Мику, мне бы хотелось с тобой ещё раз увидеться.
+
+# 97388bc0
+;             You and Yoshiki are rescued.
+Ты и Йошики спасены.
+
+# 6272221a
+;             Miku: Only you can get out of here. {playerName}, I hoped you wouldn't refuse me. Why do you need 2 talismans?
+Miku: Только ты сможешь выбраться отсюда. {playerName}, я надеялась, что ты мне не откажешь. На кой ляд тебе 2 талисмана?
+
+# b8ae44cd
+;             Yoshiki: Dude, you are a piece of shit.
+Yoshiki: Чувак, это крысиный поступок.
+
+# 7772d498
+;             Yuuya: Sometimes you have to sacrifice something.
+Yuuya: Иногда нужно чем-то жертвовать.
+
+# 849f3f61
+;             You were rescued, but at what cost?...
+Ты спасён, но какой ценой?...
+
+# 6b30591b
+;         Miku: Only Yoshiki can get out of here, I hoped you wouldn't refuse me.
+Miku: Только Йошики может выбраться отсюда, я надеялась ты мне не откажешь.
+
+# f81402ef
+;         Yoshiki: Dude, I will never forget your noble act, thank you!
+Yoshiki: Чувак, я никогда не забуду твой благородный поступок!
+
+# 5ed85e8d
+;         *It turned out that you also had a talisman hidden in your pants pocket*
+*Оказалось, что у тебя в кармане брюк был талисман*
+
+# 97388bc0
+;         You and Yoshiki are rescued.
+Ты и Йошики спасены.
+
+# e7ff6643
+;         Miku: Only I can get out of here. {playerName}, thank you again for the talisman.
+Miku: Только я смогу выбраться отсюда. {playerName}, спасибо тебе за талисман.
+
+# 713aa12d
+;         Yoshiki: I hope we can escape from him.
+Yoshiki: Надеюсь мы сможем сбежать от него.
+
+# b4a7aa13
+;         Yuuya: Miku, I hope we will meet again.
+Yuuya: Мику, надеюсь мы ещё увидимся.
+
+# 5ed85e8d
+;         *It turned out that you also had a talisman hidden in your pants pocket*
+*Оказалось, что у тебя в кармане брюк был талисман*
+
+# cafdb00e
+;         You and Miku are rescued.
+Ты и Мику спасены.
+
+# 6e88e63c
+;         Miku: Only you can get out of here. {playerName}, I was hoping you wouldn't turn me down.
+Miku: Только ты сможешь отсюда выбраться. {playerName}, я надеялась, что ты мне не откажешь.
+
+# 713aa12d
+;         Yoshiki: I hope we can escape from him.
+Yoshiki: Надеюсь мы сможем сбежать от него.
+
+# 7006c612
+;         Yuuya: I hope we will meet again.
+Yuuya: Надеюсь мы ещё увидимся.
+
+# 5f9dea59
+;         You were rescued...
+Ты спасён...
+
+# 221e53ba
+; Thanks for your attention!
+Спасибо за игру!
+
+# 701606ee
+; Yuuya: Miku, hold on.
+Yuuya: Мику, держи.
+
+# a9b2035
+; Miku: Thanks! Are you sure about your decision?
+Miku: Спасибо! Ты уверен в своём решении?
+
+# c51fdb50
+; Yuuya: Yep, I am.
+Yuuya: Конечно.
+
+# 503a83fe
+; Yuuya: Yoshiki, hold on.
+Yuuya: Йошики, держи.
+
+# ee8dcb5b
+; Yoshiki: Thank you, dude!
+Yoshiki: Спасибо дружище!
+
+# 69d1f3c2
+; Yuuya: I will keep the talisman.
+Yuuya: Я оставлю талисман себе.

@@ -1,0 +1,40 @@
+; English <en> to Russian <ru> localization document for `Door_201` naninovel script
+
+# cb434d77
+; <i>What? What the hell is that door covered in hair?</i>
+<i>Чё? Какого хрена эта дверь покрыта волосами?</i>
+
+# b5d8ee4e
+; Yoshiki: Hey, {playerName}, help us if you can - we're trapped.
+Yoshiki: Эй, {playerName}, спаси нас если можешь - мы в ловушке.
+
+# 1da0d3fa
+; Miku: {playerName}, do you have scissors?
+Miku: {playerName}, у тебя есть ножницы?
+
+# cfe148ac
+; Yuuya: Yes, I will now try to somehow remove this hair.
+Yuuya: Ага, я сейчас попытаюсь как-то срезать их.
+
+# 898745f
+; Yuuya: No.
+
+# 34ea5b4
+; Miku: Listen, try to look for them in the medical office, they were definitely there.
+Miku: Слушай, попробуй поискать в медпункте, они точно должны быть там.
+
+# 585b6527
+; Yuuya: Ok, soon will back
+Yuuya: Ладно, скоро вернусь.
+
+# 5bbb359d
+; <i>There is no point in removing this hair, it will grow back anyway</i>
+<i>Нет смысла срезать волосы, они наново отрастут</i>
+
+# 83985d6b
+; <i>This is where the key fits</i>
+<i>Опа, а вот и ключ подошёл</i>
+
+# b97f0c4
+; <i>Room 201. The door is locked, I need to find the keys</i>
+<i>Кабинет 201. Дверь закрыта, нужно найти ключ</i>

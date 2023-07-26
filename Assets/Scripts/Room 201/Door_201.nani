@@ -1,0 +1,80 @@
+@hideUI QuestUi
+@if MedOpened=true
+@if Opened201=false
+@back Door2 id:Room_201
+@hideUI Corridor201
+
+@if QuestNo!=5
+<i>What? What the hell is that door covered in hair?</i>
+
+Yoshiki: Hey, {playerName}, help us if you can - we're trapped.
+Miku: {playerName}, do you have scissors?
+@set QuestNo=5
+@goto Base_flow.QuestCheck
+
+@else
+@if Scissors=true
+@char Yuuya.Serious tint:#ffffff
+Yuuya: Yes, I will now try to somehow remove this hair.
+@hide Yuuya remove:true
+@wait 1
+
+@loadScene Demo
+@wait 10
+@showUI MinigameQuit
+
+@stop
+
+# GameFinished
+@set Opened201=true
+@set Place="Room201"
+@goto Base_flow.Controls
+
+@elseIf Scissors=false
+@char Yuuya.Serious tint:#ffffff
+Yuuya: No.
+@char Yuuya.Serious tint:#333333
+Miku: Listen, try to look for them in the medical office, they were definitely there.
+@char Yuuya.Serious tint:#ffffff
+Yuuya: Ok, soon will back
+@hide Yuuya remove:true
+@hide Room_201 remove:true
+@goto Base_flow.Controls
+@endIf
+@endIf
+
+@elseIf Opened201=true
+@back Door2 id:Room_201
+@hideUI Corridor201
+<i>There is no point in removing this hair, it will grow back anyway</i>
+@hide Room_201 remove:true
+@goto Base_flow.Controls
+@endIf
+
+@elseIf Key201=true
+@back Door id:Room_201
+@hideUI Corridor201
+@set Opened201=true
+@set Key201=false
+<i>This is where the key fits</i>
+@hidePrinter 
+@set Place="Room201"
+@set QuestNo=1
+@hideUI QuestUi
+@hide Room_201 remove:true
+@goto Base_flow.QuestCheck
+
+@elseIf Opened201=true
+@goto Room_201_flow
+
+@else
+@back Door id:Room_201
+@hideUI Corridor201
+<i>Room 201. The door is locked, I need to find the keys</i>
+@hidePrinter 
+@showUI Corridor201
+@hide Room_201 remove:true
+@goto Base_flow.Controls
+@endif
+
+@stop

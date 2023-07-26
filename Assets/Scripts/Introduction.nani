@@ -1,0 +1,50 @@
+@stopBgm
+@bgm Creepy loop:true
+@back Entrance id:School
+
+@wait 1
+@char Yuuya.Serious
+Yuuya: <i>Where am I?</i>
+@char Yuuya.Serious tint:#333333
+Squish ... 	squish
+
+@char Yuuya.Serious tint:#ffffff
+Yuuya: <i>Ahh shit, somebody goes here</i>
+@char Yuuya.Serious tint:#333333
+Trample-trample
+@hidePrinter 
+@choice "Try to escape through the corridor" goto:.ToCorridor
+@choice "Stand still" goto:.StandStill
+@stop
+# ToCorridor
+*Runs quickly to the left, into the corridor*
+@hide School remove:true
+@hideAll
+@back Corridor id:School
+@wait 1
+@char Yuuya.Angry_speak tint:#ffffff
+*Pant ... pant*
+@char Yuuya.Serious
+Yuuya: <i>Phew, I don't think he found me</i>
+@goto Yoshiki_dialogue
+@stop
+# StandStill
+@hideChars
+@back Entrance2 id:School
+@wait 1
+
+@back Entrance2_1 id:School tint:#ffffcc
+@wait 1
+@back Entrance2 id:School tint:#ffffff
+@wait 1
+@back Entrance2_2 id:School tint:#ffffcc
+@wait 1
+@back Entrance2 id:School tint:#ffffff
+@wait 1
+@goto Yoshiki_dialogue
+@stop
+
+# QuestCheck
+
+@if QuestNo=1
+@showUI QuestUi

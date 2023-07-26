@@ -1,0 +1,60 @@
+@stopBgm
+@bgm Game loop:true
+@resetText 
+@char Yuuya.Serious tint:#333333
+@char Yoshiki.Smile2
+Yoshiki: Boo!
+@resetText 
+@char Yoshiki.Smile2 tint:#333333
+@char Yuuya.Angry_speak tint:#ff9999
+Yuuya: АHHH!
+Yuuya: Why are you scaring me, Yoshiki!?
+
+@resetText 
+@char Yuuya.Angry_speak tint:#333333
+@char Yoshiki.Smile tint:#ffffff
+Yoshiki: Ha, you would see your face.
+Yoshiki: In fact, I thought it was a good idea to keep your spirits up.
+@resetText 
+@char Yoshiki.Smile2 tint:#333333
+@char Yuuya.Angry_speak tint:#ffffff
+Yuuya: Dude, I don't even know how I got here.
+Yuuya: I heard footsteps at the entrance of this school and I was scared.
+
+@resetText 
+@char Yuuya.Serious tint:#333333
+@char Yoshiki.Serious tint:#ffffff
+Yoshiki: It could have been a guard and someone caught his attention.
+Yoshiki: Miku's voice came from the entrance, I decided to check - I met you.
+
+@resetText 
+@char Yoshiki.Serious2 tint:#333333
+@char Yuuya.Serious tint:#ffffff
+Yuuya: It's strange, I haven't even heard that.
+@resetText 
+@char Yuuya.Serious tint:#333333
+@char Yoshiki.Smile3 tint:#ffffff
+Yoshiki: I don't know about you, but I'll go look for Miku. See you here at the entrance.
+@resetText 
+@char Yoshiki.Smile3 pos:2 tint:#333333
+@char Yuuya.Angry_speak tint:#ffffff
+Yuuya: Do you want to split up? This is dangerous!
+@resetText 
+@char Yuuya.Angry_speak tint:#333333
+@char Yoshiki.Serious pos:3 tint:#ffffff
+Yoshiki: I don't care, I'm going to save my girlfriend - don't try to stop me
+@hideChars
+*Yoshiki walked away*
+@hide Yoshiki remove:true
+@hideAll
+@set QuestNo=1
+@set Place="Entrance"
+@hide School remove:true
+@back Entrance id:School
+*The door is closed*
+@char Yuuya.Serious tint:#ffffff
+Yuuya: <i>I need to find another way out of here, or find the key to this door</i>
+@hide Yuuya remove:true
+@hide School remove:true
+@goto Base_flow.QuestCheck
+@stop

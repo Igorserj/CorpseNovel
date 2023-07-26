@@ -1,0 +1,8 @@
+@hideUI QuestUi
+@back Blackboard id:Room_201
+@hideUI Room201
+<i>The board is empty, there is nothing on it</i>
+@hide Room_201
+@goto Base_flow.Controls
+;@goto Room_201_flow
+@stop

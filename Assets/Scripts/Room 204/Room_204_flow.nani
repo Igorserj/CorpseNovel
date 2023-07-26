@@ -1,0 +1,22 @@
+@hideUI QuestUi
+@hidePrinter 
+@showUI Room204
+@hideUI Corridor204
+@showUI QuestUi
+@stopBgm
+@bgm Creepy loop:true
+@set Place="Room204"
+
+@if Key201=true
+@keyPicked isKeyPicked:true
+
+@elseIf Opened201=true
+@keyPicked isKeyPicked:true
+
+@elseIf MedOpened=true
+@keyPicked isKeyPicked:true
+
+@else
+@keyPicked isKeyPicked:false
+@endIf
+@stop

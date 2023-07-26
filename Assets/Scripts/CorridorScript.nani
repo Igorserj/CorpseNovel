@@ -1,0 +1,24 @@
+@hideUI QuestUi
+@if isTraumed=false
+@if Opened201=true
+@if MedOpened=false
+@hideUI Corridor
+@back Broken_floor id:School
+@char Yuuya.Blink
+*Crashes into the board*
+Yuuya: AHHHH!
+Yuuya: What the hell!?
+Yuuya: <i>Now i have to look for a medical office</i>
+@set isTraumed=true
+@hide Yuuya remove:true
+@hide School remove:true
+@set QuestNo=3
+@goto Base_flow.QuestCheck
+@endIf
+@endIf
+@endIf
+
+@set Place="Entrance"
+@hideUI Corridor
+@goto Base_flow.Controls
+@stop
