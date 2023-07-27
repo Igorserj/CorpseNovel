@@ -174,7 +174,7 @@ qu-EC: Quechua (Ecuador)
 qu-PE: Quechua (Peru)
 ro: Romanian
 ro-RO: Romanian (Romania)
-ru: Russian
+ru: Русский
 ru-RU: Russian (Russia)
 sa: Sanskrit
 sa-IN: Sanskrit (India)

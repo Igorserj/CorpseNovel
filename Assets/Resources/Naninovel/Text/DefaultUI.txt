@@ -1,3 +1,4 @@
+Button.Back: BACK
 CGGallery.Title: CG GALLERY
 Confirmation.No: NO
 Confirmation.Yes: YES
@@ -16,6 +17,9 @@ ExternalScriptsBrowser.Info: Select a script to play
 ExternalScriptsBrowser.Title: EXTERNAL SCRIPTS
 General.Close: CLOSE
 General.Return: RETURN
+Map.EntranceLabel: Entrance
+Map.Label: Map
+Map.MedLabel: Clinic
 Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: Are you sure you want to quit to the title screen?\nAny unsaved game progress will be lost.
 Naninovel.UI.GameSettingsFontDropdown.DefaultFontName: Default
 Naninovel.UI.GameSettingsFontSizeDropdown.Default: Default
@@ -37,6 +41,17 @@ Naninovel.UI.GameSettingsSkipModeDropdown.ReadOnly: Read Only
 Naninovel.UI.GameStateSlot.EmptySlotLabel: Empty
 Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Are you sure you want to delete save slot?
 Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Are you sure you want to overwrite save slot?
+Quest.Description1: Try to find a way out. The front door is closed
+Quest.Description2: Find the application of the key
+Quest.Description3: You need to find a place where you can provide first aid
+Quest.Description4: Miku went in search of Yoshiki. We agreed to meet at the entrance to the school
+Quest.Description5: Miku and Yoshiki are locked in room 201. Find scissors in the medical room
+Quest.Description6: Miku and Yoshiki are waiting for me at the school entrance
+Quest.Name1: Find a way out
+Quest.Name3: Find help
+Quest.Name4: Find Miku
+Quest.Name5: Friends rescue
+Quest.Name6: Epilogue
 SaveLoadMenu.Tab.Load: LOAD
 SaveLoadMenu.Tab.QuickLoad: Q. LOAD
 SaveLoadMenu.Tab.Save: SAVE

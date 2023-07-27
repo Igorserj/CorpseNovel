@@ -10,51 +10,15 @@ What is your name?
 @back School_corridor0 id:School
 @char Yuuya.Smile
 Yuuya: My name is {playerName}. I am a 2nd-4th grade student of Byakudan Senior High School.
+@hide School remove:true
 @hideAll
 @goto Introduction
 @stop
 
 # QuestCheck
-@if QuestNo=1
-@questUpd title:"Знайти вихід" description:"Потрібно знайти вихід. Вхідні двері зачинені"
-@elseIf QuestNo=2
-@questUpd title:"Знайти вихід" description:"Знайти застосування ключа"
-@elseIf QuestNo=3
-@questUpd title:"Знайти допомогу" description:"Потрібно знайти місце, де можна надати першу допомогу"
-@elseIf QuestNo=4
-@questUpd title:"Знайти Міку" description:"Міку пішла на пошуки Йошікі. Домовились зустрітись біля входу в школу"
-@elseIf QuestNo=5
-@questUpd title:"Порятунок друзів" description:"Міку та Йошікі закриті в кабінеті 201. Потрібні ножиці, які лежать в медичному кабінеті"
-@elseIf QuestNo=6
-@questUpd title:Епілог description:"Міку та Йошікі очікують мене на вході в школу"
-@endIf
+@questUpd questNo:{QuestNo}
 @goto .ShowInterface
 @stop
-;# QuestCheck
-;@set title=""
-;@set desc=""
-;@if QuestNo=1
-;@set title="Find a way out"
-;@set desc="Try to find a way out. The front door is closed"
-;@elseIf QuestNo=2
-;@set title="Find a way out"
-;@set desc="Find the application of the key"
-;@elseIf QuestNo=3
-;@set title="Find help"
-;@set desc="You need to find a place where you can provide first aid"
-;@elseIf QuestNo=4
-;@set title="Find Miku"
-;@set desc="Miku went in search of Yoshiki. We agreed to meet at the entrance to the school"
-;@elseIf QuestNo=5
-;@set title="Frinds rescue"
-;@set desc="Miku and Yoshiki are locked in room 201. Find scissors in the medical room"
-;@elseIf QuestNo=6
-;@set title="Epilogue"
-;@set desc="Miku and Yoshiki are waiting for me at the school entrance"
-;@endIf
-;@questUpd title:{title} description:{desc}
-;@goto .ShowInterface
-;@stop
 
 # Controls
 @hidePrinter 
@@ -92,7 +56,6 @@ Yuuya: My name is {playerName}. I am a 2nd-4th grade student of Byakudan Senior 
 @stop
 
 # ShowInterface
-;@showUI QuestUi
 @goto .Controls
 @stop
 

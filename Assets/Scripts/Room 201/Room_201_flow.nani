@@ -2,7 +2,7 @@
 @if Scissors=true
 @if Opened201=true
 
-@showUI QuestUi
+@hideUI QuestUi
 @stopBgm
 @bgm Game
 @back Door id:Room_201

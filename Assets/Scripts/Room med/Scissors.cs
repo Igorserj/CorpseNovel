@@ -14,7 +14,7 @@ public class Scissors : Command
     {
         var back_button_image = GameObject.Find("Back_button").GetComponent<Image>();
         var back_button = GameObject.Find("Back_button").GetComponent<Button>();
-        var back_text = GameObject.Find("Back_Text").GetComponent<Text>();
+        var back_text = GameObject.Find("BackLabel").GetComponent<Text>();
 
         var sci_button_image = GameObject.Find("Scissors_button").GetComponent<Image>();
         var sci_button = GameObject.Find("Scissors_button").GetComponent<Button>();
