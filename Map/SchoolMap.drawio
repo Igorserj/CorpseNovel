@@ -1,0 +1,88 @@
+<mxfile host="Electron" modified="2023-07-21T17:32:44.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="AhTtxy5rsgMlCPuewfC3" version="21.6.1" type="device">
+  <diagram name="Page-1" id="K1HeZHuRqg2h6jcQJDJr">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HOI79ghwgQHDCY102ZFq-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-3" value="Зруйнований шлях" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-4" value="Кабінет 201" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-6" value="Коридор" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-9" value="Вхід" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-11" value="Коридор" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-13" value="Кабінет 204" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-16" value="Сходи" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-18" value="Коридор" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-20" value="Медичний кабінет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-22" value="Зачинено на початку. Відкривається ключем з 204 кабінету. Можна подивитись на скляну шафу, вона буде заповнена чорним волоссям. На кафедрі можна побачити вирізаний надпис &quot;ключі залишено в 204 кабінеті&quot;. На дошці нічого не написано. Біля входу, на стінці висить газета, в якій розповідається, що в цій школі зникло 3 дитини і 1 вчителька" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="80" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-23" value="Далі прохід неможливий" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-24" value="На підлозі можна знайти бейдж студента" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-25" value="Тут знаходяться ключі від 201 кабінету. Можна подивитись в порожню скляну шафу. Можна на дошку і побачити дату 26.04.1986. На кафедрі нічого не написано.&lt;br&gt;&lt;br&gt;Діставши ключ і вийшовши в коридор можна почути голос з 2-го поверху" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="80" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-27" value="Якщо прийти сюди не відкривши 201 кабінет можна почути шум телевізора за зачиненими дверима&lt;br&gt;&lt;br&gt;Після того як буде відчинено 201 кабінет, відкриється цей кабінет. В кабінеті гг зустрічає Міку.&lt;br&gt;Після розмови Міку залишає гг відпочивати на ліжку.&lt;br&gt;&lt;br&gt;Через деякий час в кімнаті з&#39;являється чорна сутність, яка намагається нашкодити гг - починається міні-гра&lt;br&gt;&lt;br&gt;Після завершення міні-гри гг намагається вийти, але двері всі покриті чорним волоссям, потрібно знайти в кібнаті ножиці. Про це він дізнається після розмови біля дверей з Міку, яка стоїть по іншу сторону.&lt;br&gt;&lt;br&gt;Волосся виявилось занадто твердим, що ножиці під кінець зламались" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="80" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-28" value="Якщо не отримати ключ й піти сюди, то буде чутно голос з другого поверху" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-29" value="Після того, як гг відкриває кабінет 201, проходячи повз коридор він спіткється і травмує стопу" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="80" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HOI79ghwgQHDCY102ZFq-31" value="Вийшовши з кабінету двері швидко заростають новим волоссям" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="80" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

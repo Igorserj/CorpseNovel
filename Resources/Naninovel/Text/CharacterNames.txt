@@ -1,0 +1,4 @@
+Miku: Міку
+Yoshikazu: Yoshikazu
+Yoshiki: Йошікі
+Yuuya: {playerName}

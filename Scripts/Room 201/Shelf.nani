@@ -1,0 +1,39 @@
+@hideUI QuestUi
+@if Scissors=true
+@if Part2=false
+@back Shelf id:Room_201
+@hideUI Room201
+<i>I don't know what's in that closet, maybe it's better not to touch it</i>
+@choice "Cut hair" goto:.Cut
+@choice "Go away" goto:.No_cut
+@stop
+
+@elseIf Part2=true
+@back Shelf2 id:Room_201
+@hideUI Room201
+<i>There is nothing left here</i>
+@endIf
+
+@elseIf Scissors=false
+@back Shelf id:Room_201
+@hideUI Room201
+<i>Is it full of black hair? ...</i>
+@goto .Move
+@endIf
+
+# Move
+@hide Room_201 remove:true
+@goto Base_flow.Controls
+;@goto Room_201_flow
+
+# Cut
+@set Part2=true
+<i>Nice, +1 talisman</i>
+@back Shelf2 id:Room_201
+@goto .Move
+
+# No_cut
+<i>Perhaps it is better to leave everything as it is</i>
+@goto .Move
+
+@stop

@@ -1,0 +1,37 @@
+; English <en> to Russian <ru> localization document for `Introduction` naninovel script
+
+# 249c9d0
+; Yuuya: <i>Where am I?</i>
+Yuuya: <i>Где это я?</i>
+
+# 3c7f5c07
+; Squish ... 	squish
+Хлюп ... хлюп
+
+# 1e9e664e
+; Yuuya: <i>Ahh shit, somebody goes here</i>
+Yuuya: <i>Дерьмо, сюда кто-то идёт</i>
+
+# 2c586263
+; Trample-trample
+Топ-топ-топ
+
+# e5b7ab4b
+; @choice "Try to escape through the corridor" goto:.ToCorridor
+@choice "Попытаться сбежеать через коридор" goto:.ToCorridor
+
+# 84127fce
+; @choice "Stand still" goto:.StandStill
+@choice "Стоять на месте" goto:.StandStill
+
+# f1c8b81d
+; *Runs quickly to the left, into the corridor*
+*Бежит быстро влево, в коридор*
+
+# f1a9da1e
+; *Pant ... pant*
+*Тяжёлая отдышка*
+
+# 1c66651d
+; Yuuya: <i>Phew, I don't think he found me</i>
+Yuuya: <i>Фух, надеюсь меня не заметили</i>

@@ -1,0 +1,8 @@
+@hideUI QuestUi
+@back Corridor3 id:School
+@hideUI Corridor201
+<i>There's no way</i>
+@hidePrinter 
+@hide School
+@goto Base_flow.Controls
+@stop

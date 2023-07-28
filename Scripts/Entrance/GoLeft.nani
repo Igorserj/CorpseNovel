@@ -1,0 +1,8 @@
+@hideUI QuestUi
+@if Conversation=true
+@clearChoice
+@endIf
+@set Place="Corridor"
+@hideUI Entrance
+@goto Base_flow.Controls
+@stop

@@ -1,0 +1,19 @@
+@hideUI QuestUi
+@back Paper id:Room_201
+@hideUI Room201
+@printer Fullscreen
+09/23/1985 - A crime was committed. According to the calculation, 3 schoolchildren and 1 teacher disappeared.
+09/24/1985 - The investigation was started. It is reported that the investigators heard the voices of the schoolchildren, but no one from the outside could enter - all the entrances were closed.
+09/25/1985 - None of the workers could find the source of the voices.
+01.10.1985 - Two investigators went missing.
+04/26/1986 - Half a year later, the school was fired.
+04/27/1986 - The fire could not be extinguished.
+Thus, nothing remained - the investigation was closed.
+@resetText
+@printer Dialogue
+<i>It looks like some kind of joke, I don't believe it</i>
+<i>And why is the last record here dated 1986?</i>
+@hide Room_201
+@goto Base_flow.Controls
+;@goto Room_201_flow
+@stop

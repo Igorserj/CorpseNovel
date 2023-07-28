@@ -1,0 +1,71 @@
+@bgm Intro loop:true
+What is your name?
+@goto .NameInput
+
+# NameInput
+@hidePrinter 
+@input name summary:"Enter your name."
+@stop
+@set playerName=name
+@back School_corridor0 id:School
+@char Yuuya.Smile
+Yuuya: My name is {playerName}. I am a 2nd-4th grade student of Byakudan Senior High School.
+@hide School remove:true
+@hideAll
+@goto Introduction
+@stop
+
+# QuestCheck
+@questUpd questNo:{QuestNo}
+@goto .ShowInterface
+@stop
+
+# Controls
+@hidePrinter 
+@if Place="Entrance"
+@showUI Entrance
+@showUI QuestUi
+@if Conversation=true
+@goto .Epilogue
+@endIf
+@elseIf Place="Corridor"
+@showUI Corridor
+@showUI QuestUi
+@elseIf Place="Corridor201"
+@showUI Corridor201
+@showUI QuestUi
+@elseIf Place="Room201"
+@goto Room_201_flow
+@elseIf Place="Corridor2"
+@showUI Corridor2
+@showUI QuestUi
+@elseIf Place="Corridor204"
+@showUI Corridor204
+@showUI QuestUi
+@elseIf Place="Room204"
+@goto Room_204_flow
+@elseIf Place="Staircase"
+@showUI Staircase
+@showUI QuestUi
+@elseIf Place="CorridorMed"
+@showUI CorridorMed
+@showUI QuestUi
+@elseIf Place="RoomMed"
+@goto Room_med_flow
+@endIf
+@stop
+
+# ShowInterface
+@goto .Controls
+@stop
+
+# Epilogue
+@hideUI QuestUi
+*There's an epilogue, do you want to continue?*
+@hidePrinter 
+@choice "I am not ready"
+@choice "Start epilogue" goto:Epilogue
+@stop
+@showUI QuestUi
+
+@stop

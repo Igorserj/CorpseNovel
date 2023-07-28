@@ -1,0 +1,29 @@
+; English <en> to Russian <ru> localization document for `Shelf` naninovel script
+
+# 4f298d73
+; <i>I don't know what's in that closet, maybe it's better not to touch it</i>
+<i>Я понятия не имею, что находится в шкафу, возможно не стоит туда лезть</i>
+
+# a7835e46
+; @choice "Cut hair" goto:.Cut
+@choice "Срезать волосы" goto:.Cut
+
+# d80db602
+; @choice "Go away" goto:.No_cut
+@choice "Уйти" goto:.No_cut
+
+# a3304c51
+; <i>There is nothing left here</i>
+<i>Здесь ничего не осталось</i>
+
+# 13c6b75
+; <i>Is it full of black hair? ...</i>
+<i>Он заполнен чёрными волосами? ...</i>
+
+# 14ffdd7b
+; <i>Nice, +1 talisman</i>
+<i>О, +1 талисман, сюда</i>
+
+# 1202be05
+; <i>Perhaps it is better to leave everything as it is</i>
+<i>Наверное лучше это оставить как есть</i>

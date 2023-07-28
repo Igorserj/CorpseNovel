@@ -1,0 +1,105 @@
+; English <en> to Russian <ru> localization document for `Miku_dialogue` naninovel script
+
+# 48824571
+; Yuuya: Hello! I did not expect to meet you here.
+Yuuya: Привет! Я не ожидал тебя здеьсь увидеть.
+
+# 899e0fb3
+; Miku: {playerName}, I can't believe my eyes, is that really you?
+Miku: {playerName}, я не верю своим глазам, это и вправду ты?
+
+# e04450c2
+; Yuuya: And who else? By the way, haven't you met Yoshiki?
+Yuuya: А кто же ещё? Кстати, ты не видела Йошики?
+
+# b9e4c30a
+; Miku: The last time we saw each other before the ritual.
+Miku: Последний раз мы виделись перед ритуалом.
+
+# 36e99726
+; Yuuya: What ritual?
+Yuuya: Каким ещё ритуалом?
+
+# 4bbe6b20
+; Miku: Sachiko ever after.
+Miku: Ритуал Сачико-сан.
+
+# bbf33fe9
+; Yuuya: What kind of ritual is this?
+Yuuya: А что это за ритуал такой?
+
+# 92e32345
+; Miku: My friend found this ritual on the Internet. Its purpose to save friendship forever.
+Miku: Моя подруга нашла его в интернете. Его суть объединить нас всех узами дружбы.
+
+# 161c8cd3
+; Miku: The ritual works as follows: all the friends stand around, take the paper man in their hands and hold them tightly.
+Miku: Ритуал проводят следующим образом: все друзья становятся в круг, берут бумажный талисман и держат сильно.
+
+# 8dc2cf7
+; Miku: Then they talk about themselves 9 times - Sachiko-san, we beg of you.
+Miku: Потом они говорят про себя 9 раз - Сачико-сан, мы умоляем Вас.
+
+# 4739c769
+; Miku: After that, everyone quickly tears apart the paper man.
+Miku: Пеосле этого, каждый разрывает бумажного человека.
+
+# c827f49a
+; Miku: But for some reason, immediately after the break, an earthquake began, and everyone fell under the broken floor - it was as if I had fallen into an abyss.
+Miku: Но каким-то образом, после разрыва, началось землетрясение и все провалились под пол - прямиком в бездну.
+
+# c995665d
+; Yuuya: Ah, so that's why I'm here, all of you decided to destroy the whole school.
+Yuuya: Аа, так вот почему я здесь, вы решили развалить школу.
+
+# 8a31254
+; Miku: No, it's not like that, no one wanted it to happen.
+Miku: Нет, этого не должно было случиться, никто этого не хотел.
+
+# c39017df
+; Yuuya: Then tell me what this paper dummy is needed for?
+Yuuya: Тогда раскажи, на кой чёрт этот бумажный хрен нужен?
+
+# 11971334
+; Miku: It is like a charm that connects all of us, friends, with Ayumi.
+Miku: Это как оберег, который объединяет нас - друзей Аюми.
+
+# 2be9af5f
+; Yuuya: I would still listen, but I need to rest - I hurt my leg.
+Yuuya: Я бы ещё послушал, но мне нужно отдохнуть - я повредил ногу.
+
+# cb69b3cd
+; Miku: Let me help you!
+Miku: Давай я тебе помогу!
+
+# 24933aeb
+; Yuuya: No, you don't have to, I'll handle it myself, you better try to find Yoshiki, he's wandering around the school somewhere, and then you'll come back here.
+Yuuya: Не надо, я справлюсь сам, ты лучше поищи Йошики, он  где-то блуждает по школе, а потом вернёшься сюда.
+
+# 3153ecc7
+; Yuuya: If you don't find me here, then we'll meet at the school entrance.
+Yuuya: Если ты меня здесь не найдёшь, тогда ищи у школьного входа.
+
+# 6685a65f
+; Miku: You are lucky to have found me, and now you sit and rest - and I have to go find this fool.
+Miku: Тебе повезло, что ты нашёл меня, а теперь ты сидишь и отдыхаешь - а мне надо идти искать кретина.
+
+# c6bd94b0
+; Yuuya: I'm not forcing you, if you don't want to - you can not go.
+Yuuya: Я тебя не заставляю, не хочешь - оставайся здесь.
+
+# f4c7d91d
+; Miku: I'd better go out so I don't disturb you.
+Miku: Я лучше выйду, чтобы тебе не мешать.
+
+# 133a518c
+; *Miku goes out*
+*Мику уходит*
+
+# e6f2bc1e
+; *A few hours later*
+*Спустя несколько часов*
+
+# 6ae9ffab
+; Yuuya: Miku has not been seen or heard for a long time, I have to go and check.
+Yuuya: Что-то давно не слышно и не видно Мику, надо пойти проверить.

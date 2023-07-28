@@ -1,0 +1,83 @@
+; English <en> to Russian <ru> localization document for `DefaultUI` managed text document
+
+Button.Back: НАЗАД
+CGGallery.Title: CG GALLERY
+Confirmation.No: НЕТ
+Confirmation.Yes: ДА
+ControlPanel.Auto: АВТО
+ControlPanel.Hide: СКРЫТЬ
+ControlPanel.Load: ЗАГРУЗИТЬ
+ControlPanel.Log: ЖУРНАЛ
+ControlPanel.QuickLoad: Быстр.Загр
+ControlPanel.QuickSave: Быстр.Сохр
+ControlPanel.Save: СОХРАНИТЬ
+ControlPanel.Settings: НАСТРОЙКИ
+ControlPanel.Skip: ПРОПУСК
+ControlPanel.Tips: СОВЕТ
+ControlPanel.Title: МЕНЮ
+ExternalScriptsBrowser.Info: Select a script to play
+ExternalScriptsBrowser.Title: EXTERNAL SCRIPTS
+General.Close: ЗАКРЫТЬ
+General.Return: НА ГЛАВНУЮ
+Map.EntranceLabel: Вход
+Map.Label: Карта
+Map.MedLabel: Медпункт
+Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: Вы уверены, что хотите вернуться на главный экран?\nВесь несохранённый игровой прогресс будет утерян.
+Naninovel.UI.GameSettingsFontDropdown.DefaultFontName: Обычный
+Naninovel.UI.GameSettingsFontSizeDropdown.Default: Обычный
+Naninovel.UI.GameSettingsFontSizeDropdown.ExtraLarge: Очень крупный
+Naninovel.UI.GameSettingsFontSizeDropdown.Large: Крупный
+Naninovel.UI.GameSettingsFontSizeDropdown.Small: Мелкий
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption1: Очень низкие
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption2: Низкие
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption3: Средние
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption4: Высокие
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption5: Очень высокие
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption6: Ультра
+Naninovel.UI.GameSettingsScreenModeDropdown.ExclusiveFullScreen: Полный экран
+Naninovel.UI.GameSettingsScreenModeDropdown.FullScreenWindow: Полноэкранный оконный
+Naninovel.UI.GameSettingsScreenModeDropdown.MaximizedWindow: На весь экран
+Naninovel.UI.GameSettingsScreenModeDropdown.Windowed: Оконный
+Naninovel.UI.GameSettingsSkipModeDropdown.Everything: Любой
+Naninovel.UI.GameSettingsSkipModeDropdown.ReadOnly: Только для чтения
+Naninovel.UI.GameStateSlot.EmptySlotLabel: Пусто
+Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Вы уверены, что хотите удалить сохранение?
+Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Вы уверены, что хотите перезаписать сохранение?
+Quest.Description1: Попробуй найти выход. Входная дверь закрыта
+Quest.Description2: Найти применение ключа
+Quest.Description3: Нужно найти место, где можно оказать первую помощь
+Quest.Description4: Мику отправилась на поиски Йошики. Мы договорились встретиться у входа в школу
+Quest.Description5: Мику и Йошики заперты в комнате 201. Найдите ножницы в медпункте
+Quest.Description6: Мику и Йошики ждут меня у входа в школу
+Quest.Name1: Найти выход
+Quest.Name3: Найти помощь
+Quest.Name4: В поисках Мику
+Quest.Name5: Спасение друзей
+Quest.Name6: Эпилог
+SaveLoadMenu.Tab.Load: ЗАГРУЗИТЬ
+SaveLoadMenu.Tab.QuickLoad: Быстр. ЗАГРУЗКА
+SaveLoadMenu.Tab.Save: СОХРАНИТЬ
+SettingsMenu.AutoDelay: Автопрокрутка:
+SettingsMenu.Font: Шрифт:
+SettingsMenu.FontSize: Размер шрифта:
+SettingsMenu.Graphics: Графика:
+SettingsMenu.Language: Язык:
+SettingsMenu.MessageSpeed: Скорость-сообщений:
+SettingsMenu.Preview: Предпросмотр
+SettingsMenu.PreviewText: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis vitae tellus a pharetra. Aenean vitae ipsum in est lobortis vulputate a blandit ipsum. Nullam in felis purus. 
+SettingsMenu.Resolution: Разрешение:
+SettingsMenu.ScreenMode: Режим экрана:
+SettingsMenu.SkipMode: Режим пропуска:
+SettingsMenu.Tab.Basic: БАЗОВЫЕ
+SettingsMenu.Tab.Sound: ЗВУК
+SettingsMenu.Tab.Text: ТЕКСТ
+SettingsMenu.VoiceLanguage: Язык голоса:
+SettingsMenu.VolumeEffects: Громкость эффектов:
+SettingsMenu.VolumeMaster: Общая громкость:
+SettingsMenu.VolumeMusic: Громкость музыки:
+SettingsMenu.VolumeVoice: Громкость голоса:
+TitleMenu.Continue: ПРОДОЛЖИТЬ
+TitleMenu.Exit: ВЫХОД
+TitleMenu.NewGame: НОВАЯ ИГРА
+TitleMenu.Settings: НАСТРОЙКИ
+VariableInput.Submit: ПОДТВЕРДИТЬ

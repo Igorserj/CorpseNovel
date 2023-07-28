@@ -1,0 +1,24 @@
+@hideUI QuestUi
+@showUI Map
+
+@if QuestNo=1
+@mapShow Quest:"Room204" Hero:{Place}
+@elseIf QuestNo=2
+@mapShow Quest:"Room201" Hero:{Place}
+@elseIf QuestNo=3
+@mapShow Quest:"RoomMed" Hero:{Place}
+@elseIf QuestNo=4
+@mapShow Quest:"Room201" Hero:{Place}
+@elseIf QuestNo=5
+@if Scissors=false
+@mapShow Quest:"RoomMed" Hero:{Place}
+@else
+@mapShow Quest:"Room201" Hero:{Place}
+@endIf
+@elseIf QuestNo=6
+@mapShow Quest:"Entrance" Hero:{Place}
+@else
+@mapShow Hero:Place
+@endIf
+
+@stop
